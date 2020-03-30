@@ -25,3 +25,6 @@
 # Ignore backup file system & editors.
 *~
 
+# Ignore config/application.yml
+/config/application.yml
+
