@@ -1,0 +1,18 @@
+# Add applicatin configuratin variable here, as shown below.
+#
+# PUSHER_APP_ID: "2954"
+# PUSHER_KEY: 7381a978fdd7f9a1117
+# PUSHER_SECRET: addc3b896a0ff85d373
+# STRIPE_API_KEY: EdAvEPVEC3LuaTg5Q3z6WbDVqZlcBQ8Z
+# STRIPE_PUBLIC_KEY: pk_BRgD5708fHja9HxduJUszhef6jCyS
+#
+# See http://railsapps.github.io/rails-environment-variables.html
+# This file should be listed in .gitignore to keep your settings secret!
+# Each entry sets a local environment variable and overrides EVN variables
+# in the Unix shell.
+GMAIL_USERNAME: donsror0226
+GMAIL_PASSWORD: dps0226dps
+MAILCHIMP_API_KEY: faa9c79e919669a9a19191bab01a3dab-us19
+MAILCHIMP_LIST_ID: Don
+DOMAIN_NAME: gmail.com
+OWNER_EMAIL: donsror0226@gmail.com
