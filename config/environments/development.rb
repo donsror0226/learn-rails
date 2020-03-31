@@ -51,14 +51,14 @@ Rails.application.configure do
     port: 587,
     domain: ENV["DOMAIN_NAME"],
     authentication: "plain",
-    enable_starttls_auto: true
+    enable_starttls_auto: true,
     user_name: ENV["GMAIL_USERNAME"],
     password: ENV["GMAIL_PASSWORD"]
   }
 
   # Send email in development mode.
   config.action_mailer.perform_deliveries = true
-  
+
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
 
