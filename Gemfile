@@ -95,3 +95,4 @@ group :development do
     gem 'rails_layout'
 end
 
+gem 'devise'
