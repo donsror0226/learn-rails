@@ -1,4 +1,23 @@
-<ul class="nav">
-  <li><%= link_to 'Home', root_path %></li>
-  <%= render 'layouts/navigation_links' %>
-</ul>
+<%# navigatin styled for Zurb Foundatin 4 %>
+<nav class="top-bar">
+	<ul class="title-area">
+		<li class="name">
+  		<%= link_to 'Home', root_path %>
+  	</li>
+    			Help1     Help2     Help3
+	
+  	<li class="toggle-topbar menu-icon">
+  		<a href="###">
+  			<span>
+  				Menu
+  			</span>
+  		</a>
+  	</li>
+	</ul>
+
+	<div class="top-bar-section">
+		<ul>
+  		<%= render 'layouts/navigation_links' %>
+		</ul>
+	</div>
+</nav>

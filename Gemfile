@@ -74,6 +74,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # gem 'activerecord-tableless'
 
 # gem 'compass-rails', '~> 2.0.alpha.0'
+ gem 'compass-rails'
 
 # gem 'figaro', '>= 1.4.0'
 
@@ -95,4 +96,11 @@ group :development do
     gem 'rails_layout'
 end
 
-gem 'devise'
+gem 'devise'        # May not need.
+
+# Used with zurb foundatiin.
+group :assets do
+  gem 'foundation-rails'
+end
+
+gem 'autoprefixer-rails'
